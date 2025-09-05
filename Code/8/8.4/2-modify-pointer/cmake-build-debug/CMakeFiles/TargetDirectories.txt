@@ -1,0 +1,3 @@
+D:/WD_C_Study/Code/8/8.4/2-modify-pointer/cmake-build-debug/CMakeFiles/2_modify_pointer.dir
+D:/WD_C_Study/Code/8/8.4/2-modify-pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/WD_C_Study/Code/8/8.4/2-modify-pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

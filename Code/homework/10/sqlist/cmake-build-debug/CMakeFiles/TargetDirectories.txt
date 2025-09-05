@@ -1,0 +1,3 @@
+D:/WD_C_Study/Code/homework/10/sqlist/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/WD_C_Study/Code/homework/10/sqlist/cmake-build-debug/CMakeFiles/sqlist.dir
+D:/WD_C_Study/Code/homework/10/sqlist/cmake-build-debug/CMakeFiles/edit_cache.dir

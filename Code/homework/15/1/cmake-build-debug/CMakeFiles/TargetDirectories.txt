@@ -1,0 +1,3 @@
+D:/WD_C_Study/Code/homework/15/1/cmake-build-debug/CMakeFiles/1.dir
+D:/WD_C_Study/Code/homework/15/1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/WD_C_Study/Code/homework/15/1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

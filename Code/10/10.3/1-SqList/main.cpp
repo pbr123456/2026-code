@@ -1,0 +1,56 @@
+#include <stdio.h>
+//顺序表的初始化及插入操作
+#define MaxSize 50
+typedef int ElemType;
+typedef struct {
+    ElemType data[MaxSize];//让顺序表存储其他类型元素时，可以迅速改变代码
+    int len;
+}SqList;
+//顺序表的插入，因为L会改变，因此我们这里要用引用,i是插入的位置
+bool ListInsert(SqList &L,int i,ElemType element)
+{
+    //判断i是否合法
+    if(i<1 && i>L.len+1)
+    {
+        return false;//未插入返回false
+    }
+    //如果存储空间满了，就不能插入
+    if(L.len==MaxSize)
+        return false;//未插入返回false
+    //把后面的元素依次往后移，空出位置，来放要插入的元素
+    for(int j=L.len;j>=i;j--)
+    {
+        L.data[j] = L.data[j-1];
+    }
+    L.data[i-1] = element;
+    L.len++;//顺序表长度加1
+    return true;//插入成功就返回true
+}
+
+//打印顺序表
+void print(SqList L)
+{
+    int i;
+    for(int i=0;i<L.len;i++)
+        printf("%d ",L.data[i]);//为了打印到同一行
+    printf("\n");
+}
+
+int main() {
+     SqList L;//定义一个顺序表
+     bool ret;//用来装函数的返回值
+     ElemType del;//要删除的元素
+     L.data[0]=1;
+     L.data[1]=2;
+     L.data[2]=3;
+     L.len=3;
+     ret=ListInsert(L,2,60);
+     if(ret)
+     {
+         printf("insert sqlist success\n");
+         print(L);
+     }
+     else
+         printf("insert sqlist fail\n");
+    return 0;
+}

@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@D:\WD_C_Study\mingw64
+Options: 
+
+Options:
